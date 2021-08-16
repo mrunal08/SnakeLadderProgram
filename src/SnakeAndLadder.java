@@ -6,13 +6,13 @@ public class SnakeAndLadder {
     int userPos;
     int dice;
     int option;
-    //int newPos;
+
     public SnakeAndLadder(){
         userPos = STARTPOS;
         System.out.println("User ready to Go....");
     }
     static {
-        System.out.println("************Welcome to Snakes and Ladders Game*****************");
+        System.out.println("****Welcome to Snakes and Ladders Game****");
     }
 
     public int rollDice(){
@@ -49,7 +49,7 @@ public class SnakeAndLadder {
         }
 
         //}
-        //System.out.println("You Finally Reached "+ ENDPOS +" with Rolling Count: "+dieCounter);
+
         return userPos;
 
     }
